@@ -94,7 +94,7 @@ function convertUnits(e) {
         answerBox.style.display = "block";
         answer.innerHTML = (unit * 1000);
     }
-    setTimeout(convertUnits, 5000);
+    setTimeout(convertUnits, 2000);
 }
 
 
